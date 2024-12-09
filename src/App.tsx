@@ -51,7 +51,6 @@ const App: React.FC = () => {
         activeCount={todos.filter((todo) => !todo.completed).length}
         setFilter={setFilter}
         clearCompleted={clearCompleted}
-        setFilter = {setFilter}
         filter = {filter}
       />
     </div>

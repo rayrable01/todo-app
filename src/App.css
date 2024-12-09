@@ -19,19 +19,15 @@ a:hover {
   color: #535bf2;
 }
 
-/* app.css */
-
-/* Основной контейнер приложения */
 .app {
-  max-width: 600px; /* Ограничиваем ширину приложения */
-  margin: 40px auto; /* Центрируем приложение на странице */
+  max-width: 600px; 
+  margin: 40px auto;
   padding: 20px;
-  background-color: #ffffff; /* Белый фон */
+  background-color: #ffffff; 
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-/* Заголовок приложения */
 .app h1 {
   font-size: 24px;
   font-weight: bold;
@@ -40,10 +36,10 @@ a:hover {
   color: #4a4a4a;
 }
 
-/* Стили для кнопок */
+
 button {
-  background-color: black; /* Зеленый цвет */
-  color: #fff; /* Белый текст */
+  background-color: black; 
+  color: #fff; 
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
@@ -53,11 +49,11 @@ button {
 }
 
 button:hover {
-  background-color: grey; /* Более темный зеленый */
+  background-color: grey; 
 }
 
 button:disabled {
-  background-color: #cccccc; /* Серый цвет для отключенных кнопок */
+  background-color: #cccccc; 
   cursor: not-allowed;
 }
 
@@ -65,7 +61,7 @@ button:disabled {
   background-color: red;
 }
 
-/* Стили для списка задач */
+
 .todo-list {
   margin: 20px 0;
   padding: 0;
@@ -84,7 +80,7 @@ button:disabled {
 
 
 .todo-item:last-child {
-  border-bottom: none; /* Убираем разделитель для последнего элемента */
+  border-bottom: none; 
 }
 
 .todo-item.completed {
@@ -97,7 +93,7 @@ button:disabled {
   cursor: pointer;
 }
 
-/* Инпут для задач */
+
 .todo-input {
   display: flex;
   gap: 5px;
@@ -120,7 +116,7 @@ input {
 }
 
 .todo-input:focus {
-  border-color: #4caf50; /* Зеленый цвет при фокусе */
+  border-color: #4caf50; 
 }
 
 .todo-footer {
@@ -142,20 +138,20 @@ input {
 
 .footer-info {
   font-size: 14px;
-  color: #757575; /* Серый цвет текста */
+  color: #757575; 
 }
 
 .footer-buttons button {
-  margin-left: 10px; /* Отступы между кнопками */
+  margin-left: 10px; 
 }
 
-/* Кнопка "Clear Completed" */
+
 .clear-completed {
-  background-color: #f44336; /* Красный цвет */
+  background-color: #f44336; 
 }
 
 .clear-completed:hover {
-  background-color: #e53935; /* Более темный красный */
+  background-color: #e53935; 
 }
 
 
